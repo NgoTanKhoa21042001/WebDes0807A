@@ -1,0 +1,157 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #ccc;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 4000px;
+}
+
+#header {
+    width: 100%;
+    height: 46px;
+    background-color:#444444;
+    display: flex;
+    justify-content: space-around;
+    position: fixed;
+    left: 0;      /*cho thanh menu dính hết 2 bên */
+    top: 0;   
+    right: 0;
+}
+
+#nav {
+    display: inline-flex;
+    justify-content: space-around;
+}
+
+#nav li {
+    line-height: 46px;
+    list-style-type: none;
+}
+
+#nav li a {
+    color: #fff;
+    font-size: 20px;
+    text-decoration: none;
+    padding: 12px 20px;
+    font-weight: 400;
+    opacity: .8;
+    line-height: 46px;
+}
+
+#nav li a:hover {
+    background-color: #ccc;
+    color: #000;
+}
+
+#content {
+    margin-top: 46px;
+}
+
+.content-sub {
+    
+}
+
+.heading-khoa {
+    font-size: 25px;
+    padding: 20px 15px;
+}
+
+.calendar-khoa {
+    font-style: italic;
+    font-size: 14px;
+    padding: 0 25px;
+    margin-bottom: 25px;
+    opacity: .5;
+}
+
+.ending-khoa {
+    font-size: 20px;
+    font-weight: 400;
+    padding: 0 20px;
+}
+
+.ending-contact {
+    background-color:#333333;
+    color: #fff;
+    font-size: 15px;
+    display: flex;
+    margin-top: 25px;
+}
+
+.para {
+    margin: auto;
+}
+
+.title {
+    margin-top: 30px;
+}
+
+.content-last {
+
+}
+
+.content-last .title {
+    font-size: 30px;
+    font-weight: 700;
+    padding: 0 20px;
+}
+
+.content-last .speaker {
+    font-size: 18px;
+    font-weight: 500;
+    padding: 30px 15px;
+}
+
+.audio-yout {
+    display: flex;
+    justify-content: center;
+}
+
+.audio {
+
+}
+
+.video-yout {
+    display: flex;
+    justify-content: center;
+}
+
+.video {
+    width: 50%;
+}
+
+
+.form-action {
+    background-color: #fff;
+    max-width: 720px;
+    padding: 32px;
+    margin: 36px auto 0 auto;
+}
+
+.form__lable {
+    min-width: 20px;
+}
+
+.detail-form {
+    font-size: 15px;
+    font-weight: 700;
+  margin-bottom: 30px;
+}
+
+.form__row {
+    padding-bottom: 15px;
+}
+
+.button {
+   width: 20px;
+    height: 50px;
+}
+
+.table-heading {
+    background-color: green;
+    color: #fff;
+}
